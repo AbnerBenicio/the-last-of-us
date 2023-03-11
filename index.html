@@ -1,50 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Last of Us</title>
-    <link rel="stylesheet" href="./assets/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <div class="modal">
+      <iframe
+        class="video"
+        src=""
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <button class="fechar-modal">X</button>
+    </div>
     <header>
-        <nav>
-            <a href="#"><img id="logo" src="./assets/imagens/imagens/logo.png" alt="Logo The Last of Us"></a>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Inspiração</a></li>
-                <li><a href="#">Inspiração</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <a href="#"
+          ><img
+            id="logo"
+            src="./assets/imagens/imagens/logo.png"
+            alt="Logo The Last of Us"
+        /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#inpiracao">Inspiração</a></li>
+          <li><a href="#onde-assistir">Onde Assistir</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <div class="carrossel">
-            <img class="painel ativo" name="1" src="./assets/imagens/imagens/tlou-1.jpg" alt="">
-            <img class="painel" src="./assets/imagens/imagens/tlou-2.jpg" alt="">
-            <img class="painel" src="./assets/imagens/imagens/tlou-3.jpg" alt="">
-            <img class="painel" src="./assets/imagens/imagens/tlou-4.jpg" alt="">
-            <img class="painel" src="./assets/imagens/imagens/tlou-5.jpg" alt="">
-            <img class="painel" src="./assets/imagens/imagens/tlou-6.jpg" alt="">
+      <div class="carrossel">
+        <img
+          class="painel ativo"
+          name="1"
+          src="./assets/imagens/imagens/tlou-1.jpg"
+          alt=""
+        />
+        <img class="painel" src="./assets/imagens/imagens/tlou-2.jpg" alt="" />
+        <img class="painel" src="./assets/imagens/imagens/tlou-3.jpg" alt="" />
+        <img class="painel" src="./assets/imagens/imagens/tlou-4.jpg" alt="" />
+        <img class="painel" src="./assets/imagens/imagens/tlou-5.jpg" alt="" />
+        <img class="painel" src="./assets/imagens/imagens/tlou-6.jpg" alt="" />
 
-            <div class="botoes-carrossel">
-                <button class="botao ativo"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-                <button class="botao"></button>
-            </div>
+        <div class="botoes-carrossel">
+          <button class="botao ativo"></button>
+          <button class="botao"></button>
+          <button class="botao"></button>
+          <button class="botao"></button>
+          <button class="botao"></button>
+          <button class="botao"></button>
         </div>
+      </div>
 
-        <div id="sobre">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus similique fugit aut quo quibusdam sequi, suscipit nulla maxime quod tenetur, saepe deserunt blanditiis cupiditate quis incidunt iste dolorem quos odio.</p>
-            <img src="./assets/imagens/imagens/sobre.jpg" alt="">
+      <div id="sobre" class="content sobre">
+        <div class="barra">
+          <div class="bar"></div>
+          <h3>Sobre</h3>
+          <div class="bar"></div>
         </div>
+        <div class="info">
+          <img src="./assets/imagens/imagens/sobre.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            similique fugit aut quo quibusdam sequi, suscipit nulla maxime quod
+            tenetur, saepe deserunt blanditiis cupiditate quis incidunt iste
+            dolorem quos odio.
+          </p>
+        </div>
+      </div>
+
+      <div id="inspiracao" class="content inspiracao">
+        <div class="barra">
+          <div class="bar"></div>
+          <h3>Inspiração</h3>
+          <div class="bar"></div>
+        </div>
+        <div class="info">
+          <img src="./assets/imagens/imagens/game.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            similique fugit aut quo quibusdam sequi, suscipit nulla maxime quod
+            tenetur, saepe deserunt blanditiis cupiditate quis incidunt iste
+            dolorem quos odio.
+          </p>
+        </div>
+      </div>
+
+      <div id="onde-assistir" class="content assistir">
+        <div class="barra">
+          <div class="bar"></div>
+          <h3>Onde Assistir</h3>
+          <div class="bar"></div>
+        </div>
+        <div class="info">
+          <img src="./assets/imagens/imagens/hbo-max.jpg" alt="" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+            similique fugit aut quo quibusdam sequi, suscipit nulla maxime quod
+            tenetur, saepe deserunt blanditiis cupiditate quis incidunt iste
+            dolorem quos odio.
+          </p>
+        </div>
+        <div class="botoes-serie">
+          <button class="trailer">Trailer</button>
+          <a
+            href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GYyofRQHeuJ6fiQEAAAEy"
+            target="_blank"
+            >HBO MAX</a
+          >
+        </div>
+      </div>
     </main>
+    <footer>
+      <p>Made with ❤ by Abner Benicio</p>
+      <div class="social-midias">
+        <a href="https://github.com/AbnerBenicio/the-last-of-us"
+          ><img src="./assets/imagens/imagens/github.svg" alt=""
+        /></a>
+        <a href="https://www.linkedin.com/in/abner-benicio-303763235"
+          ><img src="./assets/imagens/imagens/linkedin-in.svg" alt=""
+        /></a>
+      </div>
+    </footer>
 
     <script src="./assets/script.js"></script>
-</body>
+  </body>
 </html>

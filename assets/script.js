@@ -1,8 +1,10 @@
 const paineis = document.querySelectorAll(".painel");
 const botoes = document.querySelectorAll(".botao");
 const bAtivo = document.querySelector(".botao.ativo");
-
-let index = 2;
+const trailer = document.querySelector(".trailer");
+const modal = document.querySelector(".modal");
+const fecharModal = document.querySelector(".fechar-modal");
+const video = document.querySelector(".video");
 
 botoes.forEach((botao, idx) => {
   botao.addEventListener("click", () => {
@@ -11,6 +13,18 @@ botoes.forEach((botao, idx) => {
     remove(paineis);
     paineis[idx].classList.add("ativo");
   });
+});
+
+trailer.addEventListener("click", (e) => {
+  e.preventDefault();
+  modal.classList.add("ativo");
+  video.setAttribute("src", "https://www.youtube.com/embed/lW5kiEUVlpo");
+});
+
+fecharModal.addEventListener("click", (e) => {
+  e.preventDefault();
+  modal.classList.remove("ativo");
+  video.setAttribute("src", "");
 });
 
 setInterval(() => {
@@ -33,7 +47,6 @@ setInterval(() => {
       paineis[index - 1].classList.remove("ativo");
       paineis[index].classList.add("ativo");
     }
-
   }, 1000);
 }, 3000);
 
