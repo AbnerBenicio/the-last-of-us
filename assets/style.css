@@ -258,7 +258,7 @@ footer a img {
   .content .info {
     flex-direction: column;
     height: auto;
-    gap: 70px;
+    gap: 40px;
   }
 
   .content .info img {
