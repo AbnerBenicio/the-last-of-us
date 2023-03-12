@@ -133,7 +133,6 @@ nav ul li a:hover {
 .content {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   margin: auto;
   gap: 20px;
@@ -273,6 +272,38 @@ footer a img {
   }
   .carrossel .painel {
     object-fit: contain;
+  }
+}
+
+@media (max-height: 415px) AND (max-width: 1000px) {
+
+  .content {
+    gap: 5px;
+  }
+
+  .content .info{
+    flex-direction: row;
+  }
+
+  .content .barra h3 {
+    font-size: 12px;
+  }
+
+  .content .info img {
+    width: 40%;
+  }
+  .content .info p {
+    font-size: 10px;
+  }
+
+  .content .botoes-serie button {
+    width: 100px;
+    font-size: 10px;
+  }
+
+  .content .botoes-serie a {
+    width: 100px;
+    font-size: 10px;
   }
 }
 
