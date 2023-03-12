@@ -133,6 +133,7 @@ nav ul li a:hover {
 .content {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   margin: auto;
   gap: 20px;
