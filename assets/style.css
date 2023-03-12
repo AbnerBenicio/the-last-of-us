@@ -187,7 +187,6 @@ nav ul li a:hover {
 .content .botoes-serie {
   display: flex;
   gap: 20px;
-  margin-top: 40px;
 }
 
 .content .botoes-serie button {
@@ -252,10 +251,14 @@ footer a img {
     height: auto;
   }
 
+  .content {
+    gap: 70px;
+  }
+
   .content .info {
     flex-direction: column;
     height: auto;
-    gap: 40px;
+    gap: 70px;
   }
 
   .content .info img {
@@ -269,6 +272,7 @@ footer a img {
   .carrossel {
     height: auto;
   }
+
   .carrossel .painel {
     object-fit: contain;
   }
