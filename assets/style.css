@@ -243,7 +243,7 @@ footer a img {
   filter: invert(1);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1010px) {
   nav {
     flex-direction: column;
     justify-content: center;
