@@ -1,6 +1,6 @@
 The Last of Us - Landing Page
 
-📝 DESCRIÇÃO 
+📝 DESCRIÇÃO <br> 
 Esse projeto consiste em uma Landing Page criada para a série "The Last of Us", inspirada em um jogo de mesmo nome.
 
 📚 FUNCIONALIDADES
