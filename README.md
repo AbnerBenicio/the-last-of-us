@@ -10,7 +10,9 @@ Esse projeto consiste em uma Landing Page criada para a série "The Last of Us",
 
 💻 TECNOLOGIAS UTILIZADAS <br>
 • JavaScript
+<br>
 • HTML
+<br>
 • CSS
 
 🧑‍💻 LINK PARA ACESSO WEB <br>
